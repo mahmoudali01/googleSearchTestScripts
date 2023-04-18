@@ -4,12 +4,12 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-import StepDef.Hook;
+import stepDef.Hook;
 
 
 @CucumberOptions(
         features = "src\\main\\resources\\Features",
-        glue = {"StepDef"},
+        glue = {"stepDef"},
         plugin = {"pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
