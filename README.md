@@ -7,6 +7,9 @@
    Maven
    Cucumber
    Gherkin
-5. Clone the project repository
-7. Run TestNG.xml file under Project root > googleSearchTestScripts/TestNG.xml
-8. Observe Reports under Project root > googleSearchTestScripts/test-output
+   ![](D:\New folder\googleSearchTestScripts\attachments\plugins.png)
+   **How to run**
+4. Clone the project repository
+5. Run TestNG.xml file under Project root > googleSearchTestScripts/TestNG.xml
+6. Observe Reports under Project root > googleSearchTestScripts/test-output
+   ![](D:\New folder\googleSearchTestScripts\attachments\reports and run.png)

@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20798cf-6027-46ad-9d0b-2b6a76a402a5" name="Changes" comment="scenario is finished">
+    <list default="true" id="c20798cf-6027-46ad-9d0b-2b6a76a402a5" name="Changes" comment="task finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Features/F01_GoogleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Features/F01_GoogleSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Gen/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Gen/Wait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/P01_GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/P01_GoogleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/D01_GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/D01_GoogleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_01_32/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_01_32/Screenshots/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_03_54/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_03_54/Screenshots/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_05_46/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_05_46/Screenshots/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_08_07/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_08_07/Screenshots/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_09_27/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_09_27/Screenshots/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_10_57/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_10_57/Screenshots/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_12_32/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_12_32/Screenshots/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_14_33/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_16_38/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_16_38/Screenshots/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_17_12/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/New folder/googleSearchTestScripts/src/main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/New folder/googleSearchTestScripts/attachments/reports and run.png",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\New folder\googleSearchTestScripts\src\main" />
@@ -155,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681799309512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="task finished">
+      <created>1681891158220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681891158220</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task finished">
+      <created>1681891183944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681891183944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add read me file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add read me file" />
+    <MESSAGE value="task finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="task finished" />
   </component>
 </project>
