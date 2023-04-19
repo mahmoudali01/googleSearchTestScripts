@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20798cf-6027-46ad-9d0b-2b6a76a402a5" name="Changes" comment="task finished">
+    <list default="true" id="c20798cf-6027-46ad-9d0b-2b6a76a402a5" name="Changes" comment="read me image added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -146,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681891183944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="read me image added">
+      <created>1681891944283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681891944283</updated>
+    </task>
+    <task id="LOCAL-00005" summary="read me image added">
+      <created>1681891954872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681891954872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +178,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add read me file" />
     <MESSAGE value="task finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="task finished" />
+    <MESSAGE value="read me image added" />
+    <option name="LAST_COMMIT_MESSAGE" value="read me image added" />
   </component>
 </project>
