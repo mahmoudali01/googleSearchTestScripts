@@ -4,33 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20798cf-6027-46ad-9d0b-2b6a76a402a5" name="Changes" comment="add read me file">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Gen/Wait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_01_32/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_01_32/Screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_03_54/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_03_54/Screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_05_46/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_05_46/Screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_08_07/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_08_07/Screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_09_27/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_09_27/Screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_10_57/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_10_57/Screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_12_32/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_12_32/Screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_14_33/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_16_38/Reports/googleReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_16_38/Screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_17_12/Reports/googleReport.html" afterDir="false" />
+    <list default="true" id="c20798cf-6027-46ad-9d0b-2b6a76a402a5" name="Changes" comment="scenario is finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Features/F01_GoogleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Features/F01_GoogleSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Gen/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Gen/Wait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/P01_GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/P01_GoogleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/D01_GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/D01_GoogleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 18_Apr_23 09_54_50/Reports/googleReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 18_Apr_23 09_56_51/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_01_32/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_01_32/Screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_03_54/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_03_54/Screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_05_46/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_05_46/Screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_08_07/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_08_07/Screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_09_27/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_09_27/Screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_10_57/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_10_57/Screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_12_32/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_12_32/Screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_14_33/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_16_38/Reports/googleReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_16_38/Screenshots/embedded1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/GoogleReport_ 19_Apr_23 00_17_12/Reports/googleReport.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,19 +80,18 @@
       <recent name="D:\New folder\googleSearchTestScripts\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Gen" />
       <recent name="StepDef" />
       <recent name="Runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/mahmo/IdeaProjects/googleSearchTestScript/TestNG.xml">
+  <component name="RunManager" selected="TestNG.D:/New folder/googleSearchTestScripts/TestNG.xml">
     <configuration name="Feature: F01_GoogleSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/F01_GoogleSearch.feature" />
-      <option name="GLUE" value="stepDef" />
+      <option name="GLUE" value="StepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="googleSearchTestScripts" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: F01_GoogleSearch" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -107,18 +104,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/mahmo/IdeaProjects/googleSearchTestScript/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
+    <configuration name="D:/New folder/googleSearchTestScripts/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="googleSearchTestScripts" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,14 +131,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Cucumber Java.Feature: F01_GoogleSearch" />
-      <item itemvalue="TestNG.C:/Users/mahmo/IdeaProjects/googleSearchTestScript/TestNG.xml" />
-      <item itemvalue="TestNG.TestRunner" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/mahmo/IdeaProjects/googleSearchTestScript/TestNG.xml" />
+        <item itemvalue="TestNG.D:/New folder/googleSearchTestScripts/TestNG.xml" />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: F01_GoogleSearch" />
       </list>

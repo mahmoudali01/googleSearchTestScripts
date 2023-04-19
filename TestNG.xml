@@ -7,17 +7,17 @@
             <class name="Runner.TestRunner"/>
         </classes>
     </test>
-    <!--    <test name="Edge">-->
-    <!--        <parameter name="browserName" value="Edge"/>-->
-    <!--        <classes>-->
-    <!--            <class name="Runner.TestRunner" />-->
-    <!--        </classes>-->
-    <!--    </test>-->
-    <!--    <test name="Firefox">-->
-    <!--        <parameter name="browserName" value="Firefox"/>-->
-    <!--        <classes>-->
-    <!--            <class name="Runner.TestRunner" />-->
-    <!--        </classes>-->
-    <!--    </test>-->
+<!--    <test name="Edge">-->
+<!--        <parameter name="browserName" value="Edge"/>-->
+<!--        <classes>-->
+<!--            <class name="Runner.TestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Firefox">-->
+<!--        <parameter name="browserName" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="Runner.TestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>

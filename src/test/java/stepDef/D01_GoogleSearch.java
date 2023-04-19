@@ -12,10 +12,14 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 public class D01_GoogleSearch {
+    String numberOfResultsPage2 ;
+    String numberOfResultsPage3 ;
+
     P01_GoogleSearch search = new P01_GoogleSearch();
     Wait wait = new Wait();
+
     @Given("^User Navigate to \"(.*)\"$")
-    public void navigateToGoogle(String URL){
+    public void navigateToGoogle(String URL) {
         //Navigate to google.com
         Hook.driver.get(URL);
     }
@@ -39,12 +43,17 @@ public class D01_GoogleSearch {
         search.searchField().sendKeys(keyword);
         //click enter
         search.searchField().sendKeys(Keys.ENTER);
+
     }
 
-    @And("Click page 2 from paginator")
+    @And("Click page 2")
     public void clickPage2() throws InterruptedException {
         //click page 2 in paginator
         search.paginatorPage2().click();
+        //set number of results at page 2
+        numberOfResultsPage2=search.resultStats().getText().substring(16,23);
+        //assert that result stats contains page 2
+        Assert.assertEquals(search.resultStats().getText().substring(0,6).equals("Page 2"), true);
     }
 
     @Then("Number of results exist on UI")
@@ -57,10 +66,17 @@ public class D01_GoogleSearch {
     public void clickPage3() {
         //click page 3 in paginator
         search.paginatorPage3().click();
+        //set number of results at page 3
+        numberOfResultsPage3 = search.resultStats().getText().substring(16,23);
+        //assert that result stats contains page 3
+        Assert.assertEquals(search.resultStats().getText().substring(0,6).equals("Page 3"), true);
+        //assert number of search results in page 2 equal to results in page 3
+        Assert.assertEquals(numberOfResultsPage2.equals(numberOfResultsPage3),true);
     }
 
     @And("There is different search suggestions at the end of the page")
     public void searchSuggestions() {
+        wait.waitVisibilityOfElement(search.relatedSearches(), 15);
         //assert that related search header is displayed
         search.relatedSearches().isDisplayed();
         //assert related search header is equal to 'Related searches'

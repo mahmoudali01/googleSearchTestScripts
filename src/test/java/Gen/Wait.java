@@ -24,24 +24,4 @@ public class Wait {
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
 
     }
-
-    public static void textPresenceElement(WebElement element, String text, int Time) {
-        WebDriverWait wait = explicitWait(Time);
-        wait.until(ExpectedConditions.textToBePresentInElement(element, text));
-    }
-
-    public static Boolean waitToBeInvisibleElement(WebElement element, int Time) {
-        WebDriverWait wait = explicitWait(Time);
-        return wait.until(ExpectedConditions.invisibilityOf(element));
-    }
-
-    public static void WaitAllToBeVisibleList(List<WebElement> element, int Time) {
-        WebDriverWait wait = explicitWait(Time);
-        wait.until(ExpectedConditions.visibilityOfAllElements(element));
-    }
-
-    public static void waitAllElementsToBeInvisibleList(List<WebElement> element, int Time) {
-        WebDriverWait wait = explicitWait(Time);
-        wait.until(ExpectedConditions.invisibilityOfAllElements(element));
-    }
 }

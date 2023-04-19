@@ -42,14 +42,11 @@ public class Hook {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver(edgeOptions);
         }
-//        ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
-//        WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver(chromeOptions);
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
+
 //    @AfterStep
 //    public void TakeScreen(Scenario scenario) {
 //        String screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
