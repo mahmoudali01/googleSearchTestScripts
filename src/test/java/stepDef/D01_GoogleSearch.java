@@ -1,45 +1,71 @@
 package stepDef;
 
+import Gen.Wait;
 import Pages.P01_GoogleSearch;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 public class D01_GoogleSearch {
     P01_GoogleSearch search = new P01_GoogleSearch();
+    Wait wait = new Wait();
     @Given("^User Navigate to \"(.*)\"$")
     public void navigateToGoogle(String URL){
+        //Navigate to google.com
         Hook.driver.get(URL);
     }
+
     @When("^User enter keyword \"(.*)\" & Click search$")
-    public void enterKeywordAndSearch(String keyword){
-      search.searchField().sendKeys(keyword);
-      search.searchBTN().click();
-    }
-    @And("^Clear search field & search another keyword \"(.*)\"$")
-    public void clearAndSearchAnotherKeyword(String keyword){
-        search.searchField().clear();
+    public void enterKeywordAndSearch(String keyword) {
+        //wait for english localization & click if visible
+        wait.waitToBeClickableElement(search.englishLocalization(), 15);
+        //enter keyword in search field
         search.searchField().sendKeys(keyword);
-        search.searchIcon().click();
+        //click enter
+        search.searchField().sendKeys(Keys.ENTER);
+
     }
+
+    @And("^Clear search field & search another keyword \"(.*)\"$")
+    public void clearAndSearchAnotherKeyword(String keyword) {
+        //clear search field
+        search.searchField().clear();
+        //enter keyword in search field
+        search.searchField().sendKeys(keyword);
+        //click enter
+        search.searchField().sendKeys(Keys.ENTER);
+    }
+
     @And("Click page 2 from paginator")
-    public void clickPage2(){
+    public void clickPage2() throws InterruptedException {
+        //click page 2 in paginator
         search.paginatorPage2().click();
     }
+
     @Then("Number of results exist on UI")
-    public void numberOfResults(){
+    public void numberOfResults() {
+        //assert number of search result is displayed
         search.resultStats().isDisplayed();
     }
+
     @And("Click on page 3 and check number of results equals to page2")
-    public void clickPage3(){
+    public void clickPage3() {
+        //click page 3 in paginator
         search.paginatorPage3().click();
     }
+
     @And("There is different search suggestions at the end of the page")
-    public void searchSuggestions(){
+    public void searchSuggestions() {
+        //assert that related search header is displayed
         search.relatedSearches().isDisplayed();
-        Assert.assertEquals(search.relatedSearches().getText().equals("Related searches"),true);
+        //assert related search header is equal to 'Related searches'
+        Assert.assertEquals(search.relatedSearches().getText().equals("Related searches"), true);
+        //assert search suggestions is displayed
         search.searchSuggestionsCard().isDisplayed();
     }
 

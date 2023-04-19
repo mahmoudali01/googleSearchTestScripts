@@ -9,23 +9,31 @@ public class P01_GoogleSearch {
     public WebElement searchField(){
         return Hook.driver.findElement(By.id("APjFqb"));
     }
-    public WebElement searchBTN(){
-        return Hook.driver.findElement(By.xpath("//input[@name='btnK'])[2]"));
+    public WebElement englishLocalization(){
+        return Hook.driver.findElement(By.linkText("English"));
     }
-    public WebElement searchIcon(){return Hook.driver.findElement(By.className("Tg7LZd"));}
     public WebElement resultStats(){
         return Hook.driver.findElement(By.id("result-stats"));
     }
-    public WebElement relatedSearches(){return Hook.driver.findElement(By.xpath("//span[contains(@class,'mgAbYb OSrXXb')])[3]"));}
+    public WebElement relatedSearches(){
+        //return Hook.driver.findElement(By.cssSelector("div#bres>div:nth-of-type(2)>div>div>div>div>div>div>span"));
+        return Hook.driver.findElement(By.xpath("//span[text()='Related searches']"));
+    }
     public WebElement searchSuggestionsCard(){
-        //y6Uyqe
-        return Hook.driver.findElement(By.className("EIaa9b"));}
+        return Hook.driver.findElement(By.className("y6Uyqe"));}
 
     public WebElement paginatorPage2(){
-        return Hook.driver.findElement(By.xpath("//a[@class='fl'])[2]"));
+        return Hook.driver.findElement(By.cssSelector("div#botstuff>div>div:nth-of-type(2)>table>tbody>tr>td:nth-of-type(3)>a"));
+
+       // return Hook.driver.findElement(By.xpath("//table[@role='presentation']//a"));
+
+//        return Hook.driver.findElement(By.xpath("//a[@class='fl'])[2]"));
     }
     public WebElement paginatorPage3(){
-        return Hook.driver.findElement(By.xpath("//a[@class='fl'])[3]"));
+return Hook.driver.findElement(By.cssSelector("div#botstuff>div>div:nth-of-type(2)>table>tbody>tr>td:nth-of-type(4)>a"));
+//        return Hook.driver.findElement(By.xpath("//a[@class='fl'])[3]"));
+      //  return Hook.driver.findElement(By.xpath("//table[@role='presentation']//a)[2]"));
+
     }
 
 

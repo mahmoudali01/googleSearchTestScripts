@@ -1,3 +1,4 @@
+@regression
 Feature: Google search and assert search result
   Background: User open the browser & is in google.com
     Given User Navigate to "https://www.google.com/"
