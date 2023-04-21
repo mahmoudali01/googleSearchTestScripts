@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20798cf-6027-46ad-9d0b-2b6a76a402a5" name="Changes" comment="read me image added">
+    <list default="true" id="c20798cf-6027-46ad-9d0b-2b6a76a402a5" name="Changes" comment="scenario completed">
+      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 21_Apr_23 09_19_12/Reports/googleReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 21_Apr_23 09_19_12/Screenshots/embedded1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 21_Apr_23 09_20_26/Reports/googleReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/GoogleReport_ 21_Apr_23 09_20_26/Screenshots/embedded1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_19_2023_8_20_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_19_2023_8_20_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/D01_GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/D01_GoogleSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/New folder/googleSearchTestScripts/attachments/reports and run.png",
+    "last_opened_file_path": "C:/Users/mahmo/IdeaProjects/googleSearchTestScript",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -57,18 +64,19 @@
       <recent name="D:\New folder\googleSearchTestScripts\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Gen" />
       <recent name="StepDef" />
       <recent name="Runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/New folder/googleSearchTestScripts/TestNG.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/mahmo/IdeaProjects/googleSearchTestScript/TestNG.xml">
     <configuration name="Feature: F01_GoogleSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/F01_GoogleSearch.feature" />
-      <option name="GLUE" value="StepDef" />
+      <option name="GLUE" value="stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="googleSearchTestScripts" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: F01_GoogleSearch" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -81,10 +89,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/New folder/googleSearchTestScripts/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="googleSearchTestScripts" />
+    <configuration name="C:/Users/mahmo/IdeaProjects/googleSearchTestScript/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -108,9 +124,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: F01_GoogleSearch" />
+      <item itemvalue="TestNG.C:/Users/mahmo/IdeaProjects/googleSearchTestScript/TestNG.xml" />
+      <item itemvalue="TestNG.TestRunner" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/New folder/googleSearchTestScripts/TestNG.xml" />
+        <item itemvalue="TestNG.C:/Users/mahmo/IdeaProjects/googleSearchTestScript/TestNG.xml" />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: F01_GoogleSearch" />
       </list>
@@ -132,35 +153,7 @@
       <option name="project" value="LOCAL" />
       <updated>1681799309512</updated>
     </task>
-    <task id="LOCAL-00002" summary="task finished">
-      <created>1681891158220</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681891158220</updated>
-    </task>
-    <task id="LOCAL-00003" summary="task finished">
-      <created>1681891183944</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1681891183944</updated>
-    </task>
-    <task id="LOCAL-00004" summary="read me image added">
-      <created>1681891944283</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1681891944283</updated>
-    </task>
-    <task id="LOCAL-00005" summary="read me image added">
-      <created>1681891954872</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1681891954872</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,8 +170,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add read me file" />
-    <MESSAGE value="task finished" />
-    <MESSAGE value="read me image added" />
-    <option name="LAST_COMMIT_MESSAGE" value="read me image added" />
+    <option name="LAST_COMMIT_MESSAGE" value="add read me file" />
   </component>
 </project>
